@@ -1,0 +1,70 @@
+body {
+  background: #fffdf6;
+  margin: 20px 100px;
+  font-family: "Quicksand", serif;
+  padding: 20px 100px 20px 100px;
+}
+
+div {
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.main {
+  padding: 60px;
+}
+
+.main h1 {
+  font-family: "Great Vibes", serif;
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: lighter;
+}
+.details {
+  margin: 30px;
+}
+.details h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.details h4 {
+  font-size: 18px;
+}
+.btn-container {
+  max-width: 60px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.wedding-main {
+  margin: 50px;
+}
+.wedding-main p {
+  font-size: 20px;
+}
+
+.travel-main {
+  padding: 100px;
+  margin: 50px;
+}
+.travel-main p {
+  margin-top: 20px;
+}
+.travel-main span {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .travel-main {
+    padding: 10px;
+    margin: 20px;
+  }
+}
